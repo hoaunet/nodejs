@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Demo Socket IO</title>
+<script src="jquery.js"></script>
+<script src="socket.io/socket.io.js"></script>
+<script>
+
+// goi dien len server
+var socket = io("http://localhost:3000");
+
+$(document).ready(function(){
+  $("#mrA").Click({function(){
+      socket.emit("Client-send-data","HELLO");
+  });
+});
+</script>
+</head>
+
+<body>
+<div id="mrA">Click send</div>
+</body>
+</html>

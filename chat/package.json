@@ -1,0 +1,11 @@
+{
+  "name": "demochatnode",
+  "version": "1.0.0",
+  "description": "chat online nodejs and socketio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hoaunet",
+  "license": "ISC"
+}
